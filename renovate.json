@@ -1,6 +1,11 @@
 {
   "extends": ["config:base"],
   "enabledManagers": ["npm"],
+  "allowedPostUpgradeCommands": ["npx npm-force-resolutions", "npm install"],
+  "postUpgradeTasks": {
+    "commands": ["npx npm-force-resolutions", "npm install"],
+    "fileFilters": ["package-lock.json"]
+  },
   "packageRules": [
     {
       "packagePatterns": ["*"],
