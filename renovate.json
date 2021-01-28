@@ -1,11 +1,6 @@
 {
   "extends": ["config:base"],
   "enabledManagers": ["npm"],
-  "allowedPostUpgradeCommands": ["npx npm-force-resolutions", "npm install"],
-  "postUpgradeTasks": {
-    "commands": ["npx npm-force-resolutions", "npm install"],
-    "fileFilters": ["package-lock.json"]
-  },
   "packageRules": [
     {
       "packagePatterns": ["*"],
@@ -31,6 +26,11 @@
       "groupName": "all BBC non-major dependencies",
       "updateTypes": ["minor", "patch"],
       "groupSlug": "psammead-minor-patch"
+    },
+    {
+      "packageNames": ["@bbc/psammead"],
+      "updateTypes": ["major"],
+      "enabled": false
     }
   ]
 }
