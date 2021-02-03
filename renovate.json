@@ -28,7 +28,7 @@
       "groupSlug": "psammead-minor-patch"
     },
     {
-      "packageNames": ["psammead"],
+      "packageNames": ["@bbc/psammead"],
       "updateTypes": ["major"],
       "enabled": false
     }
