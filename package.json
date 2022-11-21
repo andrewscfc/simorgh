@@ -98,7 +98,7 @@
     "@emotion/react": "11.10.4",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "11.10.4",
-    "@juggle/resize-observer": "2.4.0",
+    "@juggle/resize-observer": "2.5.0",
     "@loadable/component": "5.15.2",
     "@loadable/server": "5.15.2",
     "@optimizely/react-sdk": "2.8.1",
