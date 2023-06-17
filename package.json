@@ -35,7 +35,7 @@
     "async": "3.2.4",
     "terser": "5.14.2",
     "moment": "2.29.4",
-    "@testing-library/dom": "8.16.1"
+    "@testing-library/dom": "8.20.1"
   },
   "scripts": {
     "type-check": "tsc",
@@ -165,7 +165,7 @@
     "@storybook/manager-webpack5": "6.4.19",
     "@storybook/react": "6.4.22",
     "@storybook/theming": "6.4.22",
-    "@testing-library/dom": "8.13.0",
+    "@testing-library/dom": "8.20.1",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "12.1.5",
     "@testing-library/react-hooks": "8.0.1",
