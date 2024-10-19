@@ -6676,9 +6676,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chromatic@npm:11.3.2":
-  version: 11.3.2
-  resolution: "chromatic@npm:11.3.2"
+"chromatic@npm:11.12.6":
+  version: 11.12.6
+  resolution: "chromatic@npm:11.12.6"
   peerDependencies:
     "@chromatic-com/cypress": ^0.*.* || ^1.0.0
     "@chromatic-com/playwright": ^0.*.* || ^1.0.0
@@ -6691,7 +6691,7 @@ __metadata:
     chroma: dist/bin.js
     chromatic: dist/bin.js
     chromatic-cli: dist/bin.js
-  checksum: 50aa420142b93c338ea3c3c29cedbc34fe8c12388089bc7610110f93eba58469ec9a68f1573a0fc30b97512206e50d07a3ee43e08a1e66e9495c6c92ed6f6a42
+  checksum: 020bf394c169719bffb59509388df3677384ec9c29219343778f202ac5f6ef3fc331c73efefdc3c70cda09f9e26e4d4f6e6567a18bff25b74eeea90b9b1e9dee
   languageName: node
   linkType: hard
 
@@ -15686,7 +15686,7 @@ __metadata:
     babel-plugin-dynamic-import-node: 2.3.3
     babel-plugin-transform-react-remove-prop-types: 0.4.24
     chalk: 5.3.0
-    chromatic: 11.3.2
+    chromatic: 11.12.6
     cli-table: 0.3.11
     colors: ^1.4.0
     compression: 1.7.4
