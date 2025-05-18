@@ -2983,28 +2983,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@loadable/component@npm:5.15.3":
-  version: 5.15.3
-  resolution: "@loadable/component@npm:5.15.3"
+"@loadable/component@npm:5.16.7":
+  version: 5.16.7
+  resolution: "@loadable/component@npm:5.16.7"
   dependencies:
-    "@babel/runtime": ^7.7.7
+    "@babel/runtime": ^7.12.18
     hoist-non-react-statics: ^3.3.1
     react-is: ^16.12.0
   peerDependencies:
-    react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 78ac341465f2310db30381bc75e8bf73a33f99af849a6a2d87eb3842da0ba1df265e08045dc4f3fee1d194522a43a030baa91740045b64aad002f159ccce64bf
+    react: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 4408fdbc81f8234224c5a418454e0dd8442a25fb66dd2fb0d832fd9c98b0ebfc6bd04e4628ed0c2811b2a2f810599865e0df052e8d54482792532b518ec5b099
   languageName: node
   linkType: hard
 
-"@loadable/server@npm:5.15.3":
-  version: 5.15.3
-  resolution: "@loadable/server@npm:5.15.3"
+"@loadable/server@npm:5.16.7":
+  version: 5.16.7
+  resolution: "@loadable/server@npm:5.16.7"
   dependencies:
     lodash: ^4.17.15
   peerDependencies:
     "@loadable/component": ^5.0.1
-    react: ^16.3.0 || ^17.0.0 || ^18.0.0
-  checksum: 86b239296d6da5101867724418e182360069310b950a6bad5f269ebbbb96d96b60cf72b9c35f28298b2020d8c31b2fde907523de1baf367269dc980b7b6e1d8c
+    react: ^16.3.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: b74b49f635a503c44434eea5d69e1e41277b7ca82859cdcb165d7aacf1c06a38af7613043b7d8b18cf330b8351ef4bfc90394ab63c5187d50b665ddae1e9dd82
   languageName: node
   linkType: hard
 
@@ -15637,8 +15637,8 @@ __metadata:
     "@esbuild/darwin-x64": "npm:@esbuild/darwin-x64@npm:0.20.2"
     "@esbuild/linux-x64": "npm:@esbuild/linux-x64@npm:0.20.2"
     "@loadable/babel-plugin": 5.16.1
-    "@loadable/component": 5.15.3
-    "@loadable/server": 5.15.3
+    "@loadable/component": 5.16.7
+    "@loadable/server": 5.16.7
     "@loadable/webpack-plugin": 5.15.2
     "@next/swc-darwin-arm64": "npm:@next/swc-darwin-arm64@14.2.3"
     "@next/swc-darwin-x64": "npm:@next/swc-darwin-x64@14.2.3"
